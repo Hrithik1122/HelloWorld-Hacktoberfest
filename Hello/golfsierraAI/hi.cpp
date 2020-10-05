@@ -52,7 +52,8 @@ int main()
     timelinear = abs(startlinear - endlinear);
     rtimebinary = ((double)timebinary) / CLOCKS_PER_SEC;
     rtimelinear = ((double)timelinear) / CLOCKS_PER_SEC;
-    printf("Time taken Binary: %f Sec\n", rtimebinary);
-    printf("Time taken Linear : %f Sec\n", rtimelinear);
-    return 0;
+    printf("Time taken Binary: %f Sec\n\n", rtimebinary);
+    printf("Time taken Linear : %f Sec\n\n", rtimelinear);
+    
+   return 0;
 }
